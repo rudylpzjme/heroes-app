@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+        <img class="img-fluid" [src]="heroe.imgCover" alt="">
+        <h2 class="float-right subtitle">{{ heroe.name }}</h2>
+    </div>
+    <div class="col-sm-4"></div>
+</div>
+<div class="row">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6">
+        <p>
+            <img class="logo" *ngIf="heroe.company === 'DC'" src="assets/imgs/dc-logo.jpg" alt="DC Logo">
+            <img class="logo" *ngIf="heroe.company === 'Marvel'" src="assets/imgs/marvel-logo.png" alt="Marvel Logo"> {{ heroe.bio }}
+        </p>
+    </div>
+    <div class="col-sm-3"></div>
+</div>

@@ -1,46 +1,6 @@
 <div class="row">
-    <div class="col-sm-3">
-        <div class="card">
-            <img class="card-img-top" src="assets/imgs/aquaman.png" alt="Card image cap">
-            <div class="card-body">
-                <h4 class="card-title">Aquaman</h4>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary btn-block">View profile</a>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-        </div>
+    <div class="col-sm-12">
+        <p class="title">Super Heroes</p>
     </div>
-    <div class="col-sm-3">
-        <div class="card">
-            <img class="card-img-top" src="assets/imgs/batman.png" alt="Card image cap">
-            <div class="card-body">
-                <h4 class="card-title">Batman</h4>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary btn-block">View profile</a>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-3">
-        <div class="card">
-            <img class="card-img-top" src="assets/imgs/hulk.png" alt="Card image cap">
-            <div class="card-body">
-                <h4 class="card-title">Hulk</h4>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary btn-block">View profile</a>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-3">
-        <div class="card">
-            <img class="card-img-top" src="assets/imgs/greenlintern.png" alt="Card image cap">
-            <div class="card-body">
-                <h4 class="card-title">Green lintern</h4>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary btn-block">View profile</a>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-        </div>
-    </div>
+    <app-heroe-card class="col-sm-3" [heroe]="heroe" *ngFor="let heroe of heroes;"></app-heroe-card>
 </div>

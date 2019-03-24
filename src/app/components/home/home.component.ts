@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Heroe } from 'src/app/interfaces/heroe.interface';
 
 @Component({
   selector: 'app-home',

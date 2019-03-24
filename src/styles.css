@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+nav {
+    margin-bottom: 2rem;
+}
+
+.logo {
+    --size: 150px;
+    float: left;
+    width: var(--size);
+    height: var(--size);
+    shape-outside: circle(75px at 0px 75px);
+    margin-left: -75px;
+    border-radius: 75px;
+    -webkit-border-radius: 75px;
+    -moz-border-radius: 75px;
+}
+
+.subtitle {
+    margin: 1em 0 0.5em 0;
+    color: #343434;
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: 'Orienta', sans-serif;
+    letter-spacing: 1px;
+    font-style: italic;
+}
